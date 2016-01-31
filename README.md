@@ -8,7 +8,10 @@ Todo
 
 ## For Developers
 
-Todo
+```sh
+./ready-to-contribution.sh
+# And open src/debug.html
+```
 
 ## License
 
