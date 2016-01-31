@@ -1,5 +1,5 @@
 (function () {
-    var topLevelIdentifier = "tableRowFiltering";
+    var topLevelIdentifier = "tableRowFilter";
 
     chrome.contextMenus.create({
         type: "normal",

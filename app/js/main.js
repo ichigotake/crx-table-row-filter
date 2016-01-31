@@ -9,7 +9,7 @@
         if (!(request instanceof Object)) {
             return;
         }
-        if (request.name !== "tableToSpreadsheet") {
+        if (request.name !== "tableRowFilter") {
             return;
         }
         if (typeof $table[0] === "undefined") {
