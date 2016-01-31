@@ -1,0 +1,14 @@
+{
+  "name": "crx-table-row-filter",
+  "version": "0.1.0",
+  "description": "Chrome extension to provide the filter table rows",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/ichigotake/crx-table-row-filter",
+  "author": "ichigotake",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}
