@@ -1,4 +1,4 @@
-# table-row-filter
+# table-rows-filter
 
 Chrome extension to provide the filter table rows.
 

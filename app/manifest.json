@@ -1,5 +1,5 @@
 {
-    "name":"table-row-filter",
+    "name":"table-rows-filter",
     "version":"0.1.0",
     "manifest_version": 2,
     "description":"Chrome extension to provide the filter table rows.",
