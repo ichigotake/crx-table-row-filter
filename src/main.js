@@ -68,7 +68,7 @@
                 $e.show();
                 return;
             }
-            if ($e.text().indexOf(keyword) > -1) {
+            if ($e.text().toLowerCase().indexOf(keyword.toLowerCase()) > -1) {
                 $e.show();
             } else {
                 $e.hide();
