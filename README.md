@@ -11,6 +11,10 @@ Todo
 ```sh
 ./ready-to-contribution.sh
 # And open src/debug.html
+
+./build.sh
+# See ./dist
+
 ```
 
 ## License
