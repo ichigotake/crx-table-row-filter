@@ -2,5 +2,6 @@
 
 npm install
 mkdir -p app/{js,vendor}
-cp bower_components/jquery/dist/jquery.min.js app/vendor/jquery.js
+cp node_modules/jquery/dist/jquery.min.js app/vendor/jquery.js
+
 
