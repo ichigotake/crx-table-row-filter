@@ -51,6 +51,7 @@
             } else {
                 $table.find('caption').remove();
             }
+            return false;
         });
 
     });
