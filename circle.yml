@@ -4,5 +4,9 @@ dependencies:
 
 test:
   override:
-    - export BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD) && export TAG=$([ "$BRANCH_NAME" == "master" ] && cat .app-version || echo "$BRANCH_NAME"; ) && npm run prebuild build make-release
+    - export BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+        && export TAG=$([ "$BRANCH_NAME" == "master" ] && cat .app-version || echo "$BRANCH_NAME"; )
+        && npm run prebuild
+        && npm run build
+        && npm run make-release
 
