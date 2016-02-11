@@ -1,6 +1,6 @@
 {
   "name": "crx-table-rows-filter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Chrome extension to provide the filter table rows",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   },
   "repository": "https://github.com/ichigotake/crx-table-rows-filter",
   "author": "ichigotake",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "npm-zepto": "^1.1.7"
   }
