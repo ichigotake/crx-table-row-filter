@@ -9,10 +9,11 @@ Todo
 ## For Developers
 
 ```sh
-./ready-to-contribution.sh
+npm install
+npm run prebuild
 # And open src/debug.html
 
-./build.sh
+npm run build
 # See ./dist
 
 ```
