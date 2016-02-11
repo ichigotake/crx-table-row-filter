@@ -9,5 +9,5 @@ upload_url=$(
 
 echo $upload_url
 
-curl -u "$USERNAME:$TOKEN" -X POST "$upload_url?name=crx-table-rows-filter-$TAG.zip" -H "Content-Type: application/zip" -T ../dist/crx-table-row-filter.zip | jq
+curl -u "$USERNAME:$TOKEN" -X POST "$upload_url?name=crx-table-rows-filter-$TAG.zip" -H "Content-Type: application/zip" -T dist/crx-table-row-filter.zip | jq
 
