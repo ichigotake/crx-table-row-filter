@@ -9,6 +9,6 @@
   "author": "ichigotake",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^2.2.0"
+    "npm-zepto": "^1.1.7"
   }
 }
