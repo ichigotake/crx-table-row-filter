@@ -2,6 +2,8 @@
 
 Chrome extension to provide the filter table rows.
 
+[![Circle CI](https://circleci.com/gh/ichigotake/crx-table-rows-filter.svg?style=svg)](https://circleci.com/gh/ichigotake/crx-table-rows-filter)
+
 ## Overview
 
 Todo
