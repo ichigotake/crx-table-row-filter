@@ -3,12 +3,16 @@
   "version": "0.2.0",
   "description": "Chrome extension to provide the filter table rows",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "mkdir -p dist/app/js",
+    "build": "./script/build.sh",
+    "clean": "rm -rf dist/",
+    "make-release": "./script/make-release.sh"
   },
   "repository": "https://github.com/ichigotake/crx-table-rows-filter",
   "author": "ichigotake",
   "license": "Apache-2.0",
   "dependencies": {
-    "jquery": "^2.2.0"
+    "npm-zepto": "^1.1.7"
   }
 }
